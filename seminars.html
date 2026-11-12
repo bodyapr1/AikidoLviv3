@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Семінари та табори — Айкідо Львів</title>
+  <meta name="description" content="Семінари та табори (зокрема туристичні) академії айкідо Йосінкан у Львові: найближчі події та формати.">
+  <meta name="theme-color" content="#f4efe4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+  <header class="header header--solid" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Айкідо Львів — на головну">
+        <span class="logo__mark" aria-hidden="true">合</span>
+        <span class="logo__text">Айкідо<small>Львів · Йосінкан</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Головне меню">
+        <ul class="nav__list">
+          <li><a href="index.html#about">Про айкідо</a></li>
+          <li><a href="halls.html">Зали</a></li>
+          <li><a href="instructors.html">Інструктори</a></li>
+          <li><a href="news.html">Новини</a></li>
+          <li><a href="seminars.html" aria-current="page">Семінари</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+        <a href="contacts.html" class="btn btn--primary nav__cta">Пробне заняття</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Семінари та табори</h1>
+        <p>Міжнародні семінари, іспити, літні, зимові та туристичні табори — слідкуйте за подіями й записуйтесь.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Календар</p>
+          <h2>Найближчі події</h2>
+        </header>
+        <ul class="events" id="events-list" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Формати</p>
+          <h2>Що ми проводимо</h2>
+        </header>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__num">01</span>
+            <h3>Семінари</h3>
+            <p>Регулярні міжнародні семінари за участю провідних майстрів з Японії, Великобританії, Канади, Чехії, Польщі та інших країн.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">02</span>
+            <h3>Табори</h3>
+            <p>Літні та зимові табори: спортивно-оздоровчі й родинні — тренування, відпочинок і спілкування в колі однодумців.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">03</span>
+            <h3>Туристичні табори</h3>
+            <p>Активний відпочинок на природі, який поєднуємо з тренуваннями: походи, спільні вечори й нові друзі.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container cta__inner">
+        <div>
+          <p class="eyebrow">Запис</p>
+          <h2>Хочете приїхати?</h2>
+          <p class="section__sub">Зателефонуйте або напишіть — підкажемо деталі, вартість і як зареєструватися.</p>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-list__label">Телефон</span>
+            <a href="tel:+380733030900">+38 (073) 303 0 900</a>
+          </li>
+          <li>
+            <span class="contact-list__label">Пошта</span>
+            <a href="mailto:aikibudjutsu@ukr.net">aikibudjutsu@ukr.net</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Львівська обласна академія традиційних бойових мистецтв</p>
+      <ul class="footer__links">
+        <li><a href="index.html#about">Про айкідо</a></li>
+        <li><a href="instructors.html">Інструктори</a></li>
+        <li><a href="news.html">Новини</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

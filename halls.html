@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зали — Айкідо Львів</title>
+  <meta name="description" content="Зали та розклад тренувань з айкідо Йосінкан у Львові.">
+  <meta name="theme-color" content="#f4efe4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+  <header class="header header--solid" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Айкідо Львів — на головну">
+        <span class="logo__mark" aria-hidden="true">合</span>
+        <span class="logo__text">Айкідо<small>Львів · Йосінкан</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Головне меню">
+        <ul class="nav__list">
+          <li><a href="index.html#about">Про айкідо</a></li>
+          <li><a href="halls.html" aria-current="page">Зали</a></li>
+          <li><a href="instructors.html">Інструктори</a></li>
+          <li><a href="news.html">Новини</a></li>
+          <li><a href="seminars.html">Семінари</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+        <a href="contacts.html" class="btn btn--primary nav__cta">Пробне заняття</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Зали у Львові</h1>
+        <p>Адреси залів і розклад занять. Не знаєте, яка група вам підійде, — зателефонуйте.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="halls" id="halls-list" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Львівська обласна академія традиційних бойових мистецтв</p>
+      <ul class="footer__links">
+        <li><a href="index.html#about">Про айкідо</a></li>
+        <li><a href="instructors.html">Інструктори</a></li>
+        <li><a href="news.html">Новини</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
